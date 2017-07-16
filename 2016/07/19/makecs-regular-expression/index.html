@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="learning, coding, writing, 学习, 编程, 写作, xiaolai, 笑来" />
+  <meta name="keywords" content="learning, coding, writing, 学习, 编程, 写作, wangzhang, 章" />
 
 
 
@@ -98,8 +98,8 @@
 正则表达">
 <meta property="og:type" content="article">
 <meta property="og:title" content="正则表达式极简“入门”">
-<meta property="og:url" content="http://lixiaolai.com/2016/07/19/makecs-regular-expression/index.html">
-<meta property="og:site_name" content="{am}xiaolai">
+<meta property="og:url" content="http://codeonline.site/2016/07/19/makecs-regular-expression/index.html">
+<meta property="og:site_name" content="wangzhang">
 <meta property="og:description" content="正则表达式（Regular Expression）这个东西，之所以感觉难学，是因为几乎所有关于它的教程都很不友好，不是对初学者不友好，是对所有人不友好 —— 也许是因为绝大多数人即便是掌握了这个东西，也觉得实在它没办法对初学者友好罢。
 瞬间提高自学能力的诀窍在于两个字：
 
@@ -144,7 +144,7 @@
   };
 </script>
 
-  <title> 正则表达式极简“入门” | {am}xiaolai </title>
+  <title> 正则表达式极简“入门” | wangzhang </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -175,7 +175,7 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">{am}xiaolai</span>
+      <span class="site-title">wangzhang</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -207,14 +207,13 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
+        <li class="menu-item menu-item-java"> <!-- 此处所有的java原均为about，下述的user是否也应该修改-->
+			  <a href="/java" rel="section">	
+				
+				<i class="menu-item-icon fa fa-fw fa-user"></i> <br /> 	
+				Java
+			  </a>
+			</li>
       
         
         <li class="menu-item menu-item-archives">
@@ -222,11 +221,18 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            归档
+            Blog
           </a>
         </li>
       
-
+		<li class="menu-item menu-item-about">
+				  <a href="/about" rel="section">
+					
+					  <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+					
+					关于
+				  </a>
+				</li>
       
     </ul>
   
@@ -322,7 +328,7 @@
 </blockquote>
 <p>不就是学个东西嘛，学不会也不会死人的，学得会是早晚的事情。</p>
 <hr>
-<p>正则表达式，其实<a href="http://lixiaolai.com/2016/07/05/makecs-git-basics/">你之前已经用过</a>，虽然当时你可能完全不明白自己再做什么。</p>
+<p>正则表达式，其实<a href="http://codeonline.site/2016/07/05/makecs-git-basics/">你之前已经用过</a>，虽然当时你可能完全不明白自己再做什么。</p>
 <p>通俗点讲，</p>
 <blockquote>
 <p>正则表达式是用来<strong>匹配</strong>、<strong>捕获</strong>特定字符串的工具；之后，我们还可以对匹配到、捕获到的对象进行处理，比如<strong>替换</strong>。</p>
@@ -479,9 +485,9 @@
       <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/xiaolai.jpg"
-               alt="xiaolai" />
-          <p class="site-author-name" itemprop="name">xiaolai</p>
+               src="/images/wangzhang.jpg"
+               alt="wangzhang" />
+          <p class="site-author-name" itemprop="name">wangzhang</p>
           <p class="site-description motion-element" itemprop="description">学习是一种生活方式</p>
         </div>
         <nav class="site-state motion-element">
@@ -504,7 +510,7 @@
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/xiaolai" target="_blank" title="GitHub">
+                <a href="https://github.com/FisherWangZ" target="_blank" title="GitHub">
                   
                     <i class="fa fa-fw fa-github"></i>
                   
@@ -513,7 +519,7 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://twitter.com/xiaolai" target="_blank" title="Twitter">
+                <a href="https://twitter.com" target="_blank" title="Twitter">
                   
                     <i class="fa fa-fw fa-twitter"></i>
                   
@@ -562,7 +568,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">xiaolai</span>
+  <span class="author" itemprop="copyrightHolder">wangzhang</span>
 </div>
 
 <div class="powered-by">
@@ -665,10 +671,10 @@
   
 
     <script type="text/javascript">
-      var disqus_shortname = 'xiaolaigithub';
+      var disqus_shortname = 'wangzhanggithub';
       var disqus_identifier = '2016/07/19/makecs-regular-expression/';
       var disqus_title = '正则表达式极简“入门”';
-      var disqus_url = 'http://lixiaolai.com/2016/07/19/makecs-regular-expression/';
+      var disqus_url = 'http://codeonline.site/2016/07/19/makecs-regular-expression/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
