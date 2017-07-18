@@ -578,11 +578,14 @@
       </div>
     </main>
 
-	{% extends 'includes/footer.html' %}
-<!--    <footer id="footer" class="footer">	
+
+   <footer id="footer" class="footer">	
 				
 		<div class="footer-inner">
-			<div class="copyright" >
+		
+			var footerHtml=['<script src="/template/footer.js"></script>'].join('');
+			document.write(footerHtml);
+<!-- 			<div class="copyright" >
 				&copy; 
 				<script type="text/javascript">
 					var today = new Date(); 
@@ -602,10 +605,10 @@
 				<a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
 					NexT.Pisces
 				</a>
-			</div>
+			</div>-->
       
 		</div>
-    </footer>-->
+    </footer>
 
     <div class="back-to-top">
       <i class="fa fa-arrow-up"></i>
