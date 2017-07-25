@@ -354,7 +354,46 @@
        
       
 
-      <section class="site-overview sidebar-panel ">
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+				<div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<img class="site-author-image" itemprop="image"
+						src="/images/wangzhang.jpg"
+						alt="wangzhang" />
+					<p class="site-author-name" itemprop="name">wangzhang</p>
+					<p class="site-description motion-element" itemprop="description">生而平凡</p>
+				</div>
+				<!--
+				<nav class="site-state motion-element">
+				  <div class="site-state-item site-state-posts">
+					<a href="/archives">
+					  <span class="site-state-item-count">16</span>
+					  <span class="site-state-item-name">日志</span>
+					</a>
+				  </div>
+				</nav>
+				-->
+
+				<div class="links-of-author motion-element">
+
+					  <span class="links-of-author-item">
+						<a href="https://github.com/FisherWangZ" target="_blank" title="GitHub">
+							<i class="fa fa-fw fa-github"></i> 
+						  GitHub
+						</a>
+					  </span>
+					
+					  <span class="links-of-author-item">
+						<a href="https://twitter.com" target="_blank" title="Twitter">
+							<i class="fa fa-fw fa-twitter"></i> 
+						  Twitter
+						</a>
+					  </span>
+					  
+
+
+				</div>
+
+			</section>
 		<div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
 					<img class="site-author-image" itemprop="image"
 						src="/images/wangzhang.jpg"
@@ -362,6 +401,7 @@
 					<p class="site-author-name" itemprop="name">wangzhang</p>
 					<p class="site-description motion-element" itemprop="description">生而平凡</p>
 				</div>
+	  
 	  
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
@@ -433,32 +473,30 @@
     </main>
 
     <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2017</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">wangzhang</span>
-</div>
+		<div class="footer-inner">
+			<div class="copyright" >
+				&copy; 
+				<script type="text/javascript">
+					var today = new Date(); 
+					var dateString  = today.toLocaleDateString(); 
+					document.write(dateString);
+				</script>
+				<span class="with-love"><i class="fa fa-heart"></i></span>
+				<span class="author" itemprop="copyrightHolder">wangzhang</span>
+			</div>
 
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
-</div>
+			<div class="powered-by">
+				由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+			</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
-  </a>
-</div>
-
-        
-
-        
-      </div>
+			<div class="theme-info">
+				主题 -
+				<a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+					NexT.Pisces
+				</a>
+			</div>
+      
+		</div>
     </footer>
 
     <div class="back-to-top">
@@ -545,9 +583,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'wangzhanggithub';
-      var disqus_identifier = '2016/06/11/makecs-appendix01/';
+      var disqus_identifier = 'blog/';
       var disqus_title = '十分钟后开始使用英语……';
-      var disqus_url = 'http://codeonline.site/2016/06/11/makecs-appendix01/';
+      var disqus_url = 'http://codeonline.site/blog/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
